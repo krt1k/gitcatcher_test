@@ -1,1 +1,1 @@
-hostnamectl set-hostname test4
+hostnamectl set-hostname test5
