@@ -1,1 +1,1 @@
-hostnamectl set-hostname test7
+hostnamectl set-hostname thescriptworked
