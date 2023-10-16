@@ -1,1 +1,1 @@
-hostnamectl set-hostname thescr
+hostnamectl set-hostname binfileworked
