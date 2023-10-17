@@ -1,1 +1,1 @@
-hostnamectl set-hostname binfileworked
+hostnamectl set-hostname binfileworked1
