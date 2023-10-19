@@ -1,1 +1,1 @@
-hostnamectl set-hostname test
+hosdaasdstnamectl set-hostname test
