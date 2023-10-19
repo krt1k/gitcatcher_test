@@ -1,1 +1,1 @@
-hostnamectl set-hostname binfilework
+hostnamectl set-hostname testfor
