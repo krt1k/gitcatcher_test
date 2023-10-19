@@ -1,1 +1,1 @@
-hostnamectl set-hostname testfo
+hostnamectl set-hostname test
