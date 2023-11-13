@@ -1,1 +1,1 @@
-hostnamectl set-hostname test341
+hostnamectl set-hostname test31
