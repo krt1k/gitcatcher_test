@@ -1,1 +1,1 @@
-hostnamectl set-hostname tets
+hostnamectl set-hostname tes
