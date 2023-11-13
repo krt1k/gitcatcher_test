@@ -1,1 +1,1 @@
-hosdaastnamectl set-hostname test
+hosdaastnamectl set-hostname test12
