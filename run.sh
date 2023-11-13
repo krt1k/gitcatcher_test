@@ -1,1 +1,1 @@
-hostnamectl set-hostname tes
+hostnamectl set-hostname testforDayan
