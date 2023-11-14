@@ -12,4 +12,4 @@
 # echo $emailID
 # sudo bash init.sh $emailID >> /var/log/gitcatcher-update.log
 
-hostnamectl set-hostname test1
+hostnamectl set-hostname test13
