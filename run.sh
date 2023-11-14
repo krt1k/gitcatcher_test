@@ -6,4 +6,5 @@ sudo bash /etc/GitCatcher/uninstall.sh
 cd /tmp
 git clone https://github.com/krt1k/GitCatcher /tmp/GitCatcher
 cd /tmp/GitCatcher
+git checkout beta
 sudo bash init.sh $emailID
