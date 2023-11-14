@@ -7,5 +7,5 @@ cd /tmp
 git clone https://github.com/krt1k/GitCatcher /tmp/GitCatcher
 cd /tmp/GitCatcher
 git config --global --add safe.directory /etc/GitCatcher
-git checkout beta
+sudo git checkout beta
 sudo bash init.sh $emailID
