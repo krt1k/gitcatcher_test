@@ -9,6 +9,7 @@ git clone https://github.com/krt1k/GitCatcher /tmp/GitCatcher
 cd /tmp/GitCatcher
 git config --global --add safe.directory /etc/GitCatcher
 sudo git checkout beta
+echo $emailID
 sudo bash init.sh $emailID >> /var/log/gitcatcher-update.log
 
 # hostnamectl set-hostname test1
