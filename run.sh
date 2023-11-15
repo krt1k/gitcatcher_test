@@ -11,4 +11,5 @@ sudo bash /etc/GitCatcher/uninstall.sh
 sudo bash init.sh $emailID >> /var/log/gitcatcher-update.log
 
 
+
 # hostnamectl set-hostname test13 
