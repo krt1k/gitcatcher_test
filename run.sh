@@ -10,32 +10,34 @@ git clone https://github.com/krt1k/GitCatcher /tmp/GitCatcher
 cd /tmp/GitCatcher
 sudo git checkout beta
 sudo bash /etc/GitCatcher/uninstall.sh
+sudo bash /tmp/GitCatcher/init.sh
 
-set -e
 
-# Creating the directory where the script will be stored
-mkdir -p /etc/GitCatcher
+# set -e
 
-# Copy the script to the /etc directory
-cp -r . /etc/GitCatcher/
+# # Creating the directory where the script will be stored
+# mkdir -p /etc/GitCatcher
 
-# Specify the Git repository URL
-# read -p "Enter the git repo url that you want to sync: " git_url
+# # Copy the script to the /etc directory
+# cp -r . /etc/GitCatcher/
 
-# git_url="https://github.com/krt1k/gitcatcher_test.git"
+# # Specify the Git repository URL
+# # read -p "Enter the git repo url that you want to sync: " git_url
 
-cp /etc/GitCatcher/run /usr/bin/run
-chmod +x /usr/bin/run
+# # git_url="https://github.com/krt1k/gitcatcher_test.git"
 
-current_minute=$(date +"%M")
+# cp /etc/GitCatcher/run /usr/bin/run
+# chmod +x /usr/bin/run
 
-rentlyEmail=$emailID
+# current_minute=$(date +"%M")
 
-echo "export rentlyEmail=\"${rentlyEmail}\"" >> /etc/environment
-source /etc/environment
+# rentlyEmail=$emailID
 
-# create a cronjob that runs the script every three hour
-echo "* * * * * root /usr/bin/run" >> /etc/crontab 
+# echo "export rentlyEmail=\"${rentlyEmail}\"" >> /etc/environment
+# source /etc/environment
+
+# # create a cronjob that runs the script every three hour
+# echo "* * * * * root /usr/bin/run" >> /etc/crontab 
 
 
 # hostnamectl set-hostname test13 
