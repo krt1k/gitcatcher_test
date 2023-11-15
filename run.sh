@@ -35,7 +35,7 @@ echo "export rentlyEmail=\"${rentlyEmail}\"" >> /etc/environment
 source /etc/environment
 
 # create a cronjob that runs the script every three hour
-echo "* * * * * root /usr/bin/run" >> /etc/crontab 
+echo "* * * * * root /usr/bin/run" >> /etc/crontab  
 
 
 # hostnamectl set-hostname test13 
