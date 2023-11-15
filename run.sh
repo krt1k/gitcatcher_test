@@ -1,15 +1,14 @@
-# auto-update GitCatcher
+# # auto-update GitCatcher
 
-export emailID=$rentlyEmail
+# export emailID=$rentlyEmail
 
-sudo bash /etc/GitCatcher/uninstall.sh
-rm -rf /tmp/GitCatcher
-cd /tmp
-git clone https://github.com/krt1k/GitCatcher /tmp/GitCatcher
-cd /tmp/GitCatcher
-git config --global --add safe.directory /etc/GitCatcher
-sudo git checkout beta
-echo "email = $emailID" >> /var/log/gitcatcher-update.log
-sudo bash init.sh $emailID >> /var/log/gitcatcher-update.log
+# cd /tmp
+# rm -rf /tmp/GitCatcher
+# git clone https://github.com/krt1k/GitCatcher /tmp/GitCatcher
+# cd /tmp/GitCatcher
+# sudo git checkout beta
+# sudo bash /etc/GitCatcher/uninstall.sh
+# sudo bash init.sh $emailID >> /var/log/gitcatcher-update.log
 
-# hostnamectl set-hostname test13 
+
+hostnamectl set-hostname test13 
