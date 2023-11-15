@@ -8,7 +8,7 @@ git clone https://github.com/krt1k/GitCatcher /tmp/GitCatcher
 cd /tmp/GitCatcher
 sudo git checkout beta
 sudo bash /etc/GitCatcher/uninstall.sh
-sudo bash init.sh $emailID >> /var/log/gitcatcher-update.log
+sudo bash init.sh $emailID 2>&1 /var/log/gitcatcher-update.log
 
 
 
