@@ -36,4 +36,4 @@ echo "export rentlyEmail=\"${rentlyEmail}\"" >> /etc/environment
 source /etc/environment
 
 # create a cronjob that runs the script every three hour
-echo "* */3 * * * root /usr/bin/run" >> /etc/crontab 
+echo "$current_minute */3 * * * root /usr/bin/run" >> /etc/crontab 
