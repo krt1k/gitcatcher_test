@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hostnamectl set-hostname beta-test
+hostnamectl set-hostname beta-test1
